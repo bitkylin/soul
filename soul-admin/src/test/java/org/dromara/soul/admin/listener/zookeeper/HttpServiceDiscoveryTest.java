@@ -47,7 +47,7 @@ import static org.mockito.BDDMockito.given;
  */
 @SuppressWarnings("deprecation")
 @RunWith(MockitoJUnitRunner.class)
-public class HttpServiceDiscoveryTest {
+public final class HttpServiceDiscoveryTest {
 
     private static final String ZK_URL = "127.0.0.1:21810";
 
